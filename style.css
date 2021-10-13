@@ -9,18 +9,28 @@
 
 body {
 background-color: rgb(217,199,182);
+margin: 0;
 }
 
 header {
+    display: flex;
+    align-content: center;
+    justify-content: center;
     background-color: white;
     border-style: solid;
     border-color: black;
-    padding-top: -50px;
+    height: 100px;
+}
+
+#header-background {
+    width: 100%;
+    height: 100px;
+    background-image: url(/website-images/header\ picture\ for\ api-project\ 4.jpg);
 }
 
 h1 {
     text-align: center;
-    line-height: 1.75;
+    margin: 0;
     font-family: 'Cinzel', serif;
     font-size: 50px;
     
@@ -32,13 +42,40 @@ h1 {
     font-size: 22px;
     font-style: oblique;
     letter-spacing: 5px;
-    margin-top: -50px;
 }
+
+.box-a p {
+    margin: 0;
+}
+
+
+
+#search {
+    width: 100px;
+    transition: width 0.3s ease-in-out;
+}
+
+#search:focus {
+    width: 150px;
+
+}
+
 
 nav {
     text-align: center;
 }
 
+img {
+    width: 180px;
+    height: 180px;
+    margin: 1.2rem;
+    transition: all 0.3s ease-in-out;
+}
+
+img:hover {                                         /* 'Psuedo class', used for "secondary" effects and stuff, I assume? */
+    box-shadow: 2px 2px 4px #000;
+    transform: scale(1.08);
+}
 
 /* ---------------- UNDERLINE TESTING ----------------------- */
 
