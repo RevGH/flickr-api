@@ -140,12 +140,12 @@ nav {
 
 #outPutDiv {
     margin: 0 auto;
-    width: 72.5%;
+    width: 100%;
 }
 
 img {                                               /* Gallery images */
-    width: 185px;
-    height: 185px;
+    width: 180px;
+    height: 180px;
     margin: 0.5rem;
     transition: all 0.3s ease-in-out;
     
