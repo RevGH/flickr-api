@@ -144,9 +144,9 @@ nav {
 }
 
 img {                                               /* Gallery images */
-    width: 180px;
-    height: 180px;
-    margin: 0.6rem;
+    width: 160px;
+    height: 160px;
+    margin: 0.4rem;
     transition: all 0.3s ease-in-out;
     
 }
